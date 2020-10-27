@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>img/bomb.xcf</file>
+        <file>img/closed_tile.xcf</file>
+    </qresource>
+</RCC>
