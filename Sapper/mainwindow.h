@@ -3,6 +3,7 @@
 
 #include <math.h>
 #include "tile.h"
+#include "group.h"
 #include "rightclickbutton.h"
 #include <QtWidgets>
 
@@ -22,10 +23,12 @@ private slots:
     void on_pushButton_2_clicked();
 
     void updateAllNeigbors();
+    void checkNearbyGroups();
     void placeObvious();
     void openSafeTiles();
     void advancedChecking();
     void on_solveButton_clicked();
+    void checkAll();
 
 public slots:
     void onTileLeftClicked(int row, int col);

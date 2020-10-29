@@ -70,6 +70,10 @@ void tile::updateNeighbors(QVector<QPair<int, int> > vec1, QVector<QPair<int, in
     this->markedNeighbors=vec2;
 }
 
+void tile::updateNearbyGroups(QVector<group> vec){
+    this->nearbyGroups=vec;
+}
+
 QVector<QPair<int, int> >  tile::getClosedNeighbors(){
     return (this->closedNeighbors);
 }
@@ -78,10 +82,18 @@ QVector<QPair<int, int> >  tile::getMarkedNeighbors(){
     return (this->markedNeighbors);
 }
 
+QVector<group >  tile::getNearbyGroups(){
+    return (this->nearbyGroups);
+}
+
 void tile::addClosedNeighbor(QPair<int, int> pair){
     this->closedNeighbors.append(pair);
 }
 
 void tile::addMarkedNeighbor(QPair<int, int> pair){
     this->markedNeighbors.append(pair);
+}
+
+void tile::addNearbyGroup(group grp){
+    this->nearbyGroups.append(grp);
 }

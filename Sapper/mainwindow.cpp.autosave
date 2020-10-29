@@ -4,7 +4,7 @@
 #include <QTime>
 
 const int cap=10;  //amount of tiles in a row or column
-const int maxMines=40; //amount of mines on the field
+const int maxMines=15; //amount of mines on the field
 const QImage empty(":/new/prefix1/img/closed_tile.xcf");
 int tilesOpened=0;
 int tilesChecked=0;

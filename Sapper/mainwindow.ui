@@ -84,7 +84,7 @@ font: 20pt &quot;Ubuntu&quot;;</string>
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>530</y>
+      <y>520</y>
       <width>80</width>
       <height>20</height>
      </rect>
@@ -104,6 +104,19 @@ font: 20pt &quot;Ubuntu&quot;;</string>
     </property>
     <property name="text">
      <string>New Game</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="checkButton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>540</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check</string>
     </property>
    </widget>
   </widget>
